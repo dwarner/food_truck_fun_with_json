@@ -21,6 +21,7 @@ defmodule FoodTruckFunWithJson.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:httpoison, "~> 2.0"},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
     ]
   end
