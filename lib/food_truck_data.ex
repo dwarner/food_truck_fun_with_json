@@ -29,7 +29,7 @@ defmodule FoodTruckData do
     rescue
       e ->
         Logger.error(Exception.format(:error, e, __STACKTRACE__))
-        {:error}
+        {:error, %{source: source}}
     end
   end
 end
