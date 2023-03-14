@@ -1,21 +1,12 @@
 # FoodTruckFunWithJson
 
-**TODO: Add description**
+Using the data available at https://data.sfgov.org/resource/rqzj-sfat.json, we can use FoodTruckFunWithJson 
+to find out which open (i.e. status = APPROVED) food truck is the closest to Union Square in San Fransico, CA.
 
-## Installation
+## Cororidnates for Union Square
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `food_truck_fun_with_json` to your list of dependencies in `mix.exs`:
+### Latitude
+`37.788353479836715`
 
-```elixir
-def deps do
-  [
-    {:food_truck_fun_with_json, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/food_truck_fun_with_json>.
-
+### Longitude
+`-122.40682576358824`
